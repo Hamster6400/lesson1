@@ -1,0 +1,8 @@
+import random
+a = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+soru = int(input("Şifrenizin kaç karakter olmasını istersiniz:"))
+b = ""
+for i in range(soru):
+    b += random.choice(a)
+
+print(b)
